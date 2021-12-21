@@ -1,1 +1,4 @@
 # Customer-Analytics
+These datasets are for a physical retail market, We have two csv files one for the demographic data for the customers and  the other for purchasing incidence,  and brands available with their prices. we need to segment the customers based on certain features like the demographic features then use the segmentation we did to produce some descriptive statistics for finding patterns and some initial insights.
+
+After data processing I have used hierarchial clustring and kmeans to determine what are the perfect clusters to work with, then used PCA with 80% data retention and applied k means again with PCA which made a better clustering output. after that I used some descriptive statistics techniques to detect initial insights and craeted a logistic regression model to use the regression coeffiecient in estmating price elasticities for each brand and eventually what marketing campain is most impactful in such case for each brand.
